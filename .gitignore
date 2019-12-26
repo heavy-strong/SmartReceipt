@@ -1,9 +1,9 @@
 .idea
 영수증sample.png
 영수증sample2.png
-js/fontawesome.js
-js/jquery-3.3.1.min.js
-js/test.js
-js/test2.js
+js/master.js
 css/layout.css
 스마트 영수증 파일
+js/jquery-3.4.1.js
+fontawesome-free-5.12.0-web
+node_modules

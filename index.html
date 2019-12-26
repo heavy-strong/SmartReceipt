@@ -2,14 +2,17 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>스마트 영수증</title>
+    <title>Smart-Receipt</title>
 
+    <!-- styles -->
     <!-- bulma css -->
     <link rel="stylesheet" href="css/layout.css">
-
     <link rel="stylesheet" href="css/master.css">
 </head>
 <body>
+
+<!-- app -->
+<div id="app"></div>
 
 <!-- 선택 내보내기 팝업 -->
 <div class="modal" id="Export">
@@ -578,9 +581,18 @@
         </div>
     </div>
 </section>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/fontawesome.js"></script>
-<!--<script src="js/master.js"></script>-->
-<script src="js/test2.js"></script>
+
+<!-- scripts -->
+<script src="js/jquery-3.4.1.js"></script>
+<script src="fontawesome-free-5.12.0-web/js/all.js"></script>
+<script src="js/master.js"></script>
+
+<!-- React를 실행. -->
+<!-- 주의: 사이트를 배포할 때는 "development.js"를 "production.min.js"로 대체하세요. -->
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+<!-- 만든 React 컴포넌트를 실행. -->
+<script src="js/react.js"></script>
 </body>
 </html>
